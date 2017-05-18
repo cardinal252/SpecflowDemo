@@ -1,0 +1,13 @@
+﻿{
+  "baseUrl": "http://kitchensink.specflow.local",
+  "pages": [
+    {
+      "name": "Home",
+      "relativePath": "/"
+    }
+  ],
+  "renderings": [{
+    "name": "Sample Inner",
+    "id": "{D2012DD8-E878-4696-A18A-E179222C7B83}"  
+  }]
+}

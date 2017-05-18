@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Specflow.Web", "Specflow.Web\Specflow.Web.csproj", "{B849F2B5-557C-4519-AB35-B77DF5ED6D33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Specflow.Tests", "Specflow.Tests\Specflow.Tests.csproj", "{6DA9DB1E-2C93-40F4-A093-785288114DD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Specflow.Core", "Specflow.Core\Specflow.Core.csproj", "{B4EF3BF3-F9B0-4201-9432-F5301F24DBB6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B849F2B5-557C-4519-AB35-B77DF5ED6D33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B849F2B5-557C-4519-AB35-B77DF5ED6D33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B849F2B5-557C-4519-AB35-B77DF5ED6D33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B849F2B5-557C-4519-AB35-B77DF5ED6D33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DA9DB1E-2C93-40F4-A093-785288114DD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DA9DB1E-2C93-40F4-A093-785288114DD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DA9DB1E-2C93-40F4-A093-785288114DD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DA9DB1E-2C93-40F4-A093-785288114DD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4EF3BF3-F9B0-4201-9432-F5301F24DBB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4EF3BF3-F9B0-4201-9432-F5301F24DBB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4EF3BF3-F9B0-4201-9432-F5301F24DBB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4EF3BF3-F9B0-4201-9432-F5301F24DBB6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
