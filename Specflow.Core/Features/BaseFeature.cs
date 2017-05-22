@@ -45,6 +45,15 @@ namespace Specflow.Core.Features
             }
         }
 
+        protected void AssertIsNotEmpty(string value, string assertFailedMessage)
+        {
+            if (String.IsNullOrEmpty(value))
+            {
+                throw new AssertionException(
+                    $"AssertIsNotEmpty Failed: Value was not expected to be empty {assertFailedMessage}");
+            }
+        }
+
         protected void AssertFailed(string assertFailMessage)
         {
             throw new AssertionException($"AssertFailed: {assertFailMessage}");

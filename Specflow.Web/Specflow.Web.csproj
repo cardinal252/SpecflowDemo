@@ -85,6 +85,7 @@
     <Content Include="Views\Specflow\SampleRendering.cshtml" />
     <Content Include="Views\Specflow\Layout\Default.cshtml" />
     <Content Include="Views\Specflow\Sample.cshtml" />
+    <Content Include="Views\Specflow\AwesomeTeller.cshtml" />
     <None Include="Views\Web.config" />
     <None Include="Web.config" />
   </ItemGroup>

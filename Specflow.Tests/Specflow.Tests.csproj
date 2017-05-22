@@ -69,6 +69,7 @@
     <Compile Include="Features\CommonSteps.cs" />
     <Compile Include="Features\HomePageSteps.cs" />
     <Compile Include="Features\SitecorePresentationSteps.cs" />
+    <Compile Include="Features\Warmer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Renderings.feature.cs">
       <DependentUpon>Renderings.feature</DependentUpon>
@@ -79,6 +80,11 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Home Page.feature</DependentUpon>
+    </Compile>
+    <Compile Include="SpecFlowFeature1.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SpecFlowFeature1.feature</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -94,6 +100,10 @@
     </None>
     <None Include="SiteConfiguration.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="SpecFlowFeature1.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>SpecFlowFeature1.feature.cs</LastGenOutput>
     </None>
   </ItemGroup>
   <ItemGroup>
